@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav a {
+    color: #629630;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+.nav.active {
+    background-color: #fff;
+}
+.nav.active .container {
+    padding: 10px 0;
+}
+.nav a.current,
+.nav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+.hero {
+    background-image: url('../assets/Sem-título-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+  }
+  .hero h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .section1 {
+    background-color: #000000;
+    height: 100vh;
+    
+  }
+  .section2 {
+    background-color: #b43333;
+    height: 100vh;
+  }
+  .section3 {
+    background-color: #ffd966;
+    height: 100vh;
+  }
