@@ -93,3 +93,17 @@ body {
     background-color: #ffd966;
     height: 100vh;
   }
+  footer {
+    background-color: #000000;
+  }
+  .footer1 p {
+    height: 20px;
+    padding: 50px 0;
+    color: #fff;
+  }
+.footer2 ul {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-between;
+}
